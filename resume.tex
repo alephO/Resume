@@ -1,0 +1,81 @@
+% !TEX program = xelatex
+
+\documentclass{resume}
+%\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+%\usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+\begin{document}
+\pagenumbering{gobble} % suppress displaying page number
+
+\name{Jialong Chen}
+
+% {E-mail}{mobilephone}{homepage}
+% be careful of _ in emaill address
+\contactInfo{jialong.jalen.chen@gmail.com}{+1 (781)666-1340}{http://alepho.github.io}
+\address{116 Russell Street}{Massachusetts State}{02453}
+% {E-mail}{mobilephone}
+% keep the last empty braces!
+%\contactInfo{xxx@yuanbin.me}{(+86) 131-221-87xxx}{}
+ 
+\section{\faGraduationCap\ Education}
+\datedsubsection{\textbf{Brandeis University}, MA, USA}{2015 -- Present}
+\textit{Master student} in Computer Science, expected January 2017
+\datedsubsection{\textbf{University of Science and Technology of China(USTC)}, Hefei, China}{2011 -- 2015}
+\textit{B.S.} in Applied Mathematics
+\newline
+Related courses: C Program Design, Fundamentals of Java Software Development, Data Structures and Database, Foundations of Algorithms, Operating System, Computer Organization
+
+\section{\faCogs\ Skills}
+\begin{itemize}[parsep=0.5ex]
+  \item Programming Languages: C Java Python Scheme MatLab
+  \item Web Development: HTML+CSS JavaScript Rails SQL
+  \item Platform: Unix-like
+\end{itemize}
+
+
+\section{\faUsers\ Experience}
+\datedsubsection{\textbf{Pocket Guide}}{Oct. 2015 -- Dec. 2015}
+\role{Android, C, Java, JNI, Socket}{Course Final Project, collaborate with Tianjie Zhong, Chao Liu}
+An Android App with a Linux Server, https://github.com/alepho/boom-shakalaka
+\begin{itemize}
+  \item Implemented the concurrent part in the App, as well as the server program
+  \item Optimized A+
+\end{itemize}
+
+\datedsubsection{\textbf{Neuron network for science problems}}{Oct. 2015 -- Dec. 2015}
+\role{Python}{Course Final Project, collaborate with Hui Sun, Shuyi Lei}
+AI for science questions, https://github.com/alepho/AITeamProject
+\begin{itemize}
+  \item Used science textbooks from open resources project as learning materials, to train a neuron network for multiple choice science questions.
+  \item Contributed all the code with the ideas of the whole group.
+  \item Optimized A
+\end{itemize}
+
+
+\datedsubsection{\textbf{Instant messager}}{April. 2012}
+\role{C, Windows API, Socket}{Course Final Project}
+Another instant messager on Windows, https://github.com/alephO/oldsocketexample
+\begin{itemize}
+  \item Served with a Linux server, handling user register info with MySQL, transit user's chat messages, as well as sending verification code to users when they register or forget password
+  \item Server was multithreading, each thread handling communication with an active user. Threads communicated with POSIX pipe. 
+  \item Optimized top 10\%
+\end{itemize}
+
+% Reference Test
+%\datedsubsection{\textbf{Paper Title\cite{zaharia2012resilient}}}{May. 2015}
+%An xxx optimized for xxx\cite{verma2015large}
+%\begin{itemize}
+%  \item main contribution
+%\end{itemize}
+
+\section{\faInfo\ Miscellaneous}
+\begin{itemize}[parsep=0.5ex]
+  \item Blog: https://aleph0.me
+  \item GitHub: http://alepho.github.io
+  \item Active member of Linux User Group(LUG) in USTC
+\end{itemize}
+
+%% Reference
+%\newpage
+%\bibliographystyle{IEEETran}
+%\bibliography{mycite}
+\end{document}
