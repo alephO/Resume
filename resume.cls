@@ -79,6 +79,7 @@
   }
   \vspace{1.5ex}
 }
+
 \newcommand{\address}[3]{
   \centerline{\sffamily\large{\faHome\ {#1} \textperiodcentered\ \faUniversity\ {#2}\textperiodcentered\ \faArchive\  {#3}}
   }
@@ -89,3 +90,5 @@
   {\par \textit{#1} ~ #2 \par}
   \vspace{0.85ex}
 }
+
+\RequirePackage{hyperref}
